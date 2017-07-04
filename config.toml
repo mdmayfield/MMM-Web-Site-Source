@@ -11,6 +11,9 @@ disqusShortname = ""
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
 
+# MM - use relative links for local filesystems, Netlify temp site, etc.
+relativeURLs = true
+
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
