@@ -1,18 +1,19 @@
-baseurl = "https://www.mattmayfieldmusic.com/"  # End your URL with a `/` trailing slash.
+# baseurl = "http://www.mattmayfieldmusic.com/"  # End your URL with a `/` trailing slash.
+baseurl = "./"
 title = "Matt Mayfield Music"
 copyright = "&copy; 2017 Matt Mayfield Music LLC"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
+canonifyURLs = false
+relativeURLs = true
+
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
-
-# MM - use relative links for local filesystems, Netlify temp site, etc.
-relativeURLs = true
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
