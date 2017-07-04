@@ -1,0 +1,82 @@
+{{ $ := .root }}
+{{ $page := .page }}
+{{ $autolink := default true $page.Params.autolink }}
+
+<!-- Contact widget -->
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
+    {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
+  </div>
+  <div class="col-xs-12 col-md-8">
+    {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
+
+    <ul class="fa-ul" itemscope>
+
+      <li>
+        <i class="fa-li fa fa-envelope fa-2x" aria-hidden="true"></i>
+        <span id="person-email" itemprop="email">
+        <a href='mail&#116;&#111;&#58;ma%7&#52;%74&#64;ma%7&#52;&#116;ma&#121;%6&#54;&#37;&#54;9el%&#54;&#52;&#37;&#54;&#68;%&#55;&#53;si&#37;63&#46;&#37;6&#51;o&#37;6D'>m&#97;t&#116;&#64;mattm&#97;&#121;f&#105;&#101;ldm&#117;&#115;ic&#46;c&#111;m</a>
+        </span>
+      </li>
+
+      <li>
+        <i class="fa-li fa fa-linkedin fa-2x" aria-hidden="true"></i>
+        <span>
+          <a href="https://www.linkedin.com/in/matt-mayfield-09436b9" target="_blank">LinkedIn Profile</a>
+        </span>
+      </li>
+
+      <li>
+        <i class="fa-li fa fa-github fa-2x" aria-hidden="true"></i>
+        <span>
+          <a href="https://github.com/mdmayfield" target="_blank">GitHub</a>
+        </span>
+      </li>
+
+      <li>
+        <i class="fa-li fa fa-youtube fa-2x" aria-hidden="true"></i>
+        <span>
+          <a href="https://www.youtube.com/user/mattmguitar/videos" target="_blank">Personal YouTube</a>
+        </span>
+      </li>
+
+      <li>
+        <i class="fa-li fa fa-youtube fa-2x" aria-hidden="true"></i>
+        <span>
+          <a href="https://www.youtube.com/user/loudnesswar/videos" target="_blank">Professional YouTube</a>
+        </span>
+      </li>
+
+      <li>
+        <i class="fa-li fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+        <span>
+          <a href="https://www.facebook.com/MattMayfieldMusic" target="_blank">Matt Mayfield Music</a> on Facebook
+        </span>
+      </li>
+
+      <li>
+        <i class="fa-li fa fa-twitter fa-2x" aria-hidden="true"></i>
+        <span>
+          <a href="https://twitter.com/itsmattmayfield" target="_blank">@ItsMattMayfield</a> on Twitter
+        </span>
+      </li>
+
+      <li>
+        <i class="fa-li fa fa-bandcamp fa-2x" aria-hidden="true"></i>
+        <span>
+          <a href="https://mattmayfield.bandcamp.com" target="_blank">BandCamp</a>
+        </span>
+      </li>
+
+      <li>
+        <i class="fa-li fa fa-soundcloud fa-2x" aria-hidden="true"></i>
+        <span>
+          <a href="https://soundcloud.com/mattmayfield" target="_blank">SoundCloud</a>
+        </span>
+      </li>
+
+    </ul>
+
+  </div>
+</div>
