@@ -1,5 +1,5 @@
-# baseurl = "http://www.mattmayfieldmusic.com/"  # End your URL with a `/` trailing slash.
-baseurl = "./"
+baseurl = "http://www.mattmayfieldmusic.com/"  # PROD - override on command line with --baseUrl=
+# baseurl = "https://photographer-photodiode-48056.netlify.com/"   # DEV
 title = "Matt Mayfield Music"
 copyright = "&copy; 2017 Matt Mayfield Music LLC"
 theme = "academic"
