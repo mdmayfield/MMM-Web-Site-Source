@@ -13,4 +13,4 @@ $RECYCLE.BIN/
 
 # Hugodeploy config
 hugodeploy.yaml
-
+/deployed
